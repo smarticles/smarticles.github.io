@@ -186,24 +186,18 @@
 							</header>
 
 							<p></p>
-							
-							<form method="post" action="MAILTO:smarticles.logan@gmail.com">
-								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
-								</div>
-								<div class="row 50%">
-									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
+						 <script type="text/javascript" src="https://odamae.io/form/js/light.js"></script> 
+							<form id="odamae-contact-form" method="post" style="display: none">
+								<div class="odamae-row"> 		
+									<input type="text" class="odamae-input" name="name" id="name" value="" placeholder="Name" /> 		
+									<input type="text" class="odamae-input" name="contact" id="contact" value="" placeholder="Email" /> 		
+									<textarea class="odamae-textarea" name="message" id="message" placeholder="Enter your message" rows="6"></textarea> 
+								</div> 
+								<div class="odamae-row visual-captcha"></div> 
+								<div class="odamae-row actions"> 		
+									<input type="submit" class="odamae-button odamae-submit" value="Send Message" onclick="odamaeSubmit(this)" data-apikey="odamae.io_787b70aa1960c5742259e15841370769_e14d" /> 
+								</div> 
+							</form> 						
 						</div>
 					</section>
 			
