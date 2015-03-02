@@ -767,6 +767,7 @@
 			{
 				background-color: #81918E;
 				background-image: url('../images/banner.jpg');
+				text-shadow: 0.1em 0.1em 0.2em black
 			}
 
 			#main > section.two
